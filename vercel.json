@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/clean.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/clean", "dest": "api/clean.js" }
+  ]
+}
